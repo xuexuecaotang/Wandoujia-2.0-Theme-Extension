@@ -154,10 +154,12 @@
                 title : i18n.theme.SIMPLE
             }).render().$el);
 
-            $('body').append(new ThemeCategoryView({
-                themes : themesCollection.getRenrenThemes(),
-                title : i18n.theme.FUN
-            }).render().$el);
+            if (themesCollection.getRenrenThemes().length > 0) {
+                $('body').append(new ThemeCategoryView({
+                    themes : themesCollection.getRenrenThemes(),
+                    title : i18n.theme.FUN
+                }).render().$el);
+            }
         });
     });
 }(this));
