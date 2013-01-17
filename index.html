@@ -36,7 +36,7 @@
                 <div class="current hbox">
                     <div class="icon"><img src="images/check.png" /></div>
                     <span class="text-secondary">{{= i18n.theme.CURRENT }}</span>
-                    {{? it.id !== '00default' || window.navigator.language !== 'zh-cn'}}
+                    {{? it.id !== '00default' && window.navigator.language === 'zh-cn'}}
                     <span class="link button-share">{{= i18n.theme.SHARE }}</span>
                     {{?}}
                 </div>

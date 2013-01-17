@@ -1,13 +1,13 @@
 {
     "name": "豌豆荚主题",
-    "version": "1.0.0.4",
+    "version": "1.0.0.6",
     "description": "豌豆荚主题",
     "icons": {
         "16": "icon16.png",
         "72": "icon72.png"
     },
     "privacy_permissions": [
-        "setting"
+        "setting", "setting_info"
     ],
     "permissions" : [
         "file:///*/*"
