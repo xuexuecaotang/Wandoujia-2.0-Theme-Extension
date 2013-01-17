@@ -1,0 +1,13 @@
+
+style.css
+----------------
+style.css
+
+js/thememanager.js
+----------------
+js/i18n.js
+js/nls/theme.js
+js/nls/root/theme.js
+i18n!nls/theme
+js/bundle.js
+js/thememanager.js
